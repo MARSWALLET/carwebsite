@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  transpilePackages: ["three", "@react-three/fiber", "@react-three/drei", "@react-three/postprocessing", "postprocessing"],
+  // Turbopack is the default in Next.js 16. Empty config silences the warning.
+  turbopack: {},
 };
 
 export default nextConfig;
