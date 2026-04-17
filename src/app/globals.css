@@ -8,11 +8,11 @@
 }
 
 :root {
-  --background: #000000;
-  --foreground: #ffffff;
+  --background: #f5f3ef;
+  --foreground: #1a1a1a;
 }
 
-html, body, #__next {
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -22,4 +22,5 @@ html, body, #__next {
   color: var(--foreground);
   font-family: var(--font-sans), sans-serif;
 }
+
 
